@@ -18,7 +18,6 @@ Jarvis OS is a futuristic AI assistant interface inspired by Iron Man's JARVIS. 
 - `@tanstack/react-router` + `@tanstack/react-start`
 - `Tailwind CSS` for styling
 - `Supabase Functions` for the AI chat backend
-- `Lovable AI Gateway` as the chat completion provider
 - `Cloudflare` compatibility via `wrangler.jsonc`
 
 ## Features
