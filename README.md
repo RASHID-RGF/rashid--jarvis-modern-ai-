@@ -56,8 +56,7 @@ VITE_SUPABASE_PUBLISHABLE_KEY=<your-supabase-publishable-key>
 
 For the Supabase edge function, configure the AI provider key in your Supabase environment or Deno environment:
 
-```env
-LOVABLE_API_KEY=<your-lovable-api-key>
+
 ```
 
 ## Architecture
@@ -90,7 +89,7 @@ npm run build
 ## Notes
 
 - Voice input requires a browser that supports the Web Speech API (Chrome and Edge recommended).
-- The backend function expects a valid `LOVABLE_API_KEY` and uses streaming responses.
+- The backend function expects a valid _API_KEY` and uses streaming responses.
 - The UI includes mobile-friendly controls and a floating mic action button for small screens.
 
 ## Project Layout
