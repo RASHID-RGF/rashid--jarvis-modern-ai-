@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "framework": "vite",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/client",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "outputDirectory": ".output/server",
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
-
-
